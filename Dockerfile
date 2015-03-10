@@ -9,7 +9,7 @@ RUN apt-get update -y \
     && apt-get -y install htcondor \
     && apt-get clean
 
-COPY config /bin/i
+COPY config /bin/
 COPY condor_config.local /etc/condor/
  
 ENTRYPOINT ["config"]
