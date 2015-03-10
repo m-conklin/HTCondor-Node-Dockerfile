@@ -1,0 +1,9 @@
+    START       = TRUE
+    DAEMON_LIST = MASTER, STARTD, SCHEDD
+    CONDOR_HOST = <IP of Master>
+    CCB_ADDRESS = <IP of Master>
+    SUSPEND     = FALSE
+    PREEMPT     = FALSE
+    KILL        = FALSE
+    ALLOW_WRITE = <IP of Master>
+    HOSTALLOW_WRITE = <IP of Machine>
