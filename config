@@ -5,6 +5,4 @@ sed -i "s%<IP of Master>%${1}%" /etc/condor/condor_config.local
 
 sed -i "s%<IP of Machine>%${2}%" /etc/condor/condor_config.local
 
-service condor start
-
-watch condor_status
+exec `/usr/sbin/condor_master -f `
