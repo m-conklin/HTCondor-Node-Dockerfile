@@ -1,5 +1,5 @@
     START       = TRUE
-    DAEMON_LIST = MASTER, STARTD, SCHEDD
+    DAEMON_LIST = MASTER, STARTD
     CONDOR_HOST = <IP of Master>
     CCB_ADDRESS = <IP of Master>
     SUSPEND     = FALSE
